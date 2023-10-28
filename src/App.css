@@ -1,37 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.app {
+body {
+  font-family: 'Roboto', sans-serif;
   background-color: black;
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 500;
+}
+
+:root {
+  --pink: #ea3d32;
+  --magenta: #6a45a2;
+  --green: #56bd66;
+  --indigo: #5452f6;
+  --element-width: 240px;
+}
+
+.container {
+  max-width: 1280px;
   padding: 1rem;
-  height: 100vh;
-  background-image: linear-gradient(90deg, #000000, #4b4949);
-  font-family: 'Maven Pro', sans-serif;
+  margin-inline: auto;
 }
 
-.main-container {
-  padding: 0.7rem 1rem;
-  margin: 0 1.6rem;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0rem;
-  background-image: linear-gradient(to right, #1a1a1a, #1a1818, #4d4d4d, #1b1919);
-  border-radius: 4px 20px 8px 5px;
-}
-
-.header-container-left {
-  padding: 0 0.5rem;
-}
-
-.header-container-right {
-  padding: 0 0.5rem;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
