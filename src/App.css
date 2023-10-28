@@ -4,7 +4,7 @@ body {
   background-color: black;
   color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: clamp(6px, 1.35vw, 22px);
+  font-size: clamp(6px, 1.35vw, 18px);
   text-align: center;
 }
 
@@ -17,6 +17,7 @@ body {
   --cursor-width: 40px;
 }
 
+/* --------------------------------------------------------------------- */
 main {
   display: grid;
   min-height: 90vh;
@@ -35,6 +36,8 @@ main {
   align-items: center;
   grid-template-columns: 6.66% repeat(3, 13.33% 4.44%) repeat(2, 13.33% 6.66%);
 }
+
+/* --------------------------------------------------------------------- */
 
 .block {
   aspect-ratio: 3/1;
@@ -79,8 +82,32 @@ img {
   position: relative;
   z-index: -1;
 }
+
+/* --------------------------------------------------------------------- */
+
+.arr-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.arr-u {
+  width: 480%;
+  position: absolute !important;
+}
+
+.arr-u1 {
+  bottom: 199%;
+  right: -181%;
+}
+
+.arr-u2 {
+  top: 60%;
+  right: -181%;
+}
+
 .arr {
-  width: 40px;
+  width: 53px;
   display: block;
   margin-inline: auto;
   aspect-ratio: 1/1;
@@ -93,6 +120,28 @@ img {
 }
 
 .arr-s {
-  width: 140%;
-  transform: translateX(-18px) translateY(-49px) scaleX(1.1);
+  width: 155%;
+  transform: translateX(-23px) translateY(-53px);
+}
+
+/* --------------------------------------------------------------------- */
+span.chip {
+  font-size: clamp(6px, 1vw, 0.9rem);
+  min-width: 140px;
+  display: grid;
+  place-content: center;
+  height: 36px;
+  border-radius: 20px;
+  color: black;
+  position: absolute;
+  background-color: white;
+}
+
+.chip-u1 {
+  bottom: 495%;
+  left: -78%;
+}
+.chip-u2 {
+  top: 363%;
+  left: -78%;
 }
