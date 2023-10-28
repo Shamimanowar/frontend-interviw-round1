@@ -1,0 +1,7 @@
+<svg width="199" height="248" viewBox="0 0 199 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M119 208H159" stroke="white" stroke-width="2"/>
+<path d="M39 40H49C65.5685 40 79 53.4315 79 70V80" stroke="white" stroke-width="2"/>
+<path d="M119 208H109C92.4315 208 79 194.569 79 178V79" stroke="white" stroke-width="2"/>
+<path d="M136 184L160 208L136 232" stroke="white" stroke-width="2"/>
+<circle cx="40" cy="40" r="5" transform="rotate(-180 40 40)" fill="white"/>
+</svg>
