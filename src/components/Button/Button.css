@@ -1,0 +1,37 @@
+/*button Base Style */
+.base__styles {
+  min-width: 15rem;
+  min-height: 5rem;
+  padding: 1.81rem 1.87rem;
+  color: #fff;
+  border: unset;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/* red Varient */
+.red {
+  background: #ea3d32ed;
+}
+/* white Varient */
+.white {
+  background: #ffff;
+  color: #000;
+}
+/* green Varient */
+.green {
+  background: #56bd66;
+}
+/* outline Varient no background has border*/
+.outlined {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.small-rounded {
+  width: 9.37rem;
+  height: 40px;
+  background: #fff;
+  color: #000;
+  border: unset;
+  border-radius: 1.6rem;
+  font-size: 1rem;
+}

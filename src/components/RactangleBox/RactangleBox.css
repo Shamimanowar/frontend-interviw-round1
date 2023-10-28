@@ -1,0 +1,15 @@
+.ractangle_box {
+  transform: rotate(45deg);
+  width: 12rem;
+  height: 12rem;
+  background: #6a45a2;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  transform: rotate(-45deg);
+}
