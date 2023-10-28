@@ -17,8 +17,15 @@ body {
   --cursor-width: 40px;
 }
 
+main {
+  display: grid;
+  min-height: 90vh;
+  align-items: center;
+}
+
 .container {
   max-width: 1280px;
+  width: 100%;
   padding: 1rem;
   margin-inline: auto;
 }
